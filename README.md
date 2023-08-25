@@ -14,7 +14,7 @@ Data (2023) from [db.ncdd.gov.kh](http://db.ncdd.gov.kh/gazetteer/view/index.cas
 ```json
 [
   {
-    "type": "province", // capital, province, city, district, khan, commune, sangkat, village
+    "type": "province",
     "code": "02",
     "parent_code": "855",
     "name_khmer": "បាត់ដំបង",
@@ -26,7 +26,7 @@ Data (2023) from [db.ncdd.gov.kh](http://db.ncdd.gov.kh/gazetteer/view/index.cas
   {
     "type": "district",
     "code": "0206",
-    "parent_code": "02", // reference to parent code, "02" is code of Battambang province
+    "parent_code": "02",
     "name_khmer": "មោងឫស្សី",
     "name_latin": "Moung Ruessei",
     "reference": "លេខ​៤៩៣ប្រ.ក",
@@ -46,6 +46,10 @@ Data (2023) from [db.ncdd.gov.kh](http://db.ncdd.gov.kh/gazetteer/view/index.cas
 - commune
 - sangkat
 - village
+
+## parent_code
+
+Reference to parent code, "02" is code of Battambang province
 
 ## License
 
